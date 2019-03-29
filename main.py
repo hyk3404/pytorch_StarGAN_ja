@@ -18,7 +18,7 @@ def main(config):
         os.makedirs(config.log_dir)
     if not os.path.exists(config.model_save_dir):
         os.makedirs(config.model_save_dir)
-    if not os.path.exists(config.sample_dir):c
+    if not os.path.exists(config.sample_dir):
         os.makedirs(config.sample_dir)
     if not os.path.exists(config.result_dir):
         os.makedirs(config.result_dir)
